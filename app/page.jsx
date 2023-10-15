@@ -127,19 +127,19 @@ export default function Home() {
               <li>
                 <Link className={styles.contact} href='https://github.com/rrvv01' rel="noreferrer">
                   <img className={styles.linkIcon} src="./main/contact/github.png" alt="" />
-                  <span className={styles.contactLink}>https://github.com/rrvv01</span>
+                  {/* <span className={styles.contactLink}>https://github.com/rrvv01</span> */}
                 </Link>
               </li>
               <li>
                 <Link className={styles.contact} href='https://www.instagram.com/rrvv_o/' rel="noreferrer">
                   <img className={styles.linkIcon} src="./main/contact/instagram.png" alt="" />
-                  <span className={styles.contactLink}>https://www.instagram.com/rrvv_o/</span>
+                  {/* <span className={styles.contactLink}>https://www.instagram.com/rrvv_o/</span> */}
                 </Link>
               </li>
               <li>
                 <Link className={styles.contact} href='https://www.rlaaudrb1104@gmail.com' rel="noreferrer">
                   <img className={styles.linkIcon} src="./main/contact/gmail.png" alt="" />
-                  <span className={styles.contactLink}>guksuukim57@gmail.com</span>
+                  {/* <span className={styles.contactLink}>guksuukim57@gmail.com</span> */}
                 </Link>
               </li>
 

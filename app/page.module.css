@@ -182,7 +182,7 @@
 .contactsList {
     margin-top: 40px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 25px;
 }
 
