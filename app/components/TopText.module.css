@@ -1,11 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&display=swap');
+
 .topTitleContainer:before, .topTitleContainer:after{
     position: absolute;
-    font-family: 'Barlow', sans-serif;
     font-size: 82px;
-    font-style: italic;
     font-weight: 300;
     line-height: normal;
     letter-spacing: 4.92px;
+    
 }
 
 .topTitleContainer:before{
@@ -21,13 +22,13 @@
 .topTitle{
     margin-top: 10px;
     margin-bottom: 15px;
+    
 }
 
 .topTitle span{
     text-transform: uppercase;
-    font-family: 'Barlow', sans-serif;
-    font-size: 82px;
-    font-style: italic;
+    font-family: 'Alumni Sans Collegiate One' , sans-serif;
+    font-size: 95px;
     font-weight: 300;
     line-height: normal;
     letter-spacing: 4.92px;

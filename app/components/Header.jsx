@@ -30,10 +30,10 @@ export default function Header() {
                 <Link onClick={onClickMenu} className={styles.menuLink} href={'#about'}>About</Link>
               </li>
               <li className={styles.menuItem}>
-                <Link onClick={onClickMenu} className={styles.menuLink} href={'#projects'}>Team Project</Link>
+                <Link onClick={onClickMenu} className={styles.menuLink} href={'#skill'}>skill</Link>
               </li>
               <li className={styles.menuItem}>
-                <Link onClick={onClickMenu} className={styles.menuLink} href={'#Tech_stack'}>Tech stack</Link>
+                <Link onClick={onClickMenu} className={styles.menuLink} href={'#team_project'}>Team Project</Link>
               </li>
               <li className={styles.menuItem}>
                 <Link onClick={onClickMenu} className={styles.menuLink} href={'#contacts'}>Contact</Link>

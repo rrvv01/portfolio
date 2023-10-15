@@ -10,12 +10,13 @@ export default function TopText() {
             <div className={styles.topTitleContainer}>
                 <div className={styles.topTitle}>
                     <Typewriter
-                        words={[`Hello everyone!`]}
-                        typeSpeed={100}
+                        words={[`Geunsoo Kim Page`]}
+                        typeSpeed={50}
                     />
+
                 </div>
             </div>
-    
+
         </>
     )
 }

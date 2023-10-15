@@ -1,16 +1,23 @@
-.title{
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Dongle:wght@700&family=Gasoek+One&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+
+
+.title {
     color: white;
+    font-family: 'Tilt Neon', sans-serif;
     font-size: 40px;
     font-weight: 500;
     text-transform: uppercase;
     margin-bottom: 30px;
 }
 
-.top{
+.top {
     height: 100vh;
 }
 
-.topInner{
+.topInner {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -18,23 +25,24 @@
     height: 100vh;
 }
 
-.minTitle{
+.minTitle {
     font-size: 30px;
     font-weight: 300;
 }
 
-.subTitle{
+.subTitle {
     color: white;
     text-transform: uppercase;
+    font-family: 'Gamja Flower', sans-serif;
     font-size: 25px;
     font-weight: 300;
     letter-spacing: 0.96px;
     opacity: 0.5;
-    
+
 
 }
 
-.button{
+.button {
     padding: 20px 80px;
     margin-top: 30px;
     background-color: #B7C9DF;
@@ -44,44 +52,47 @@
     transition: all .3s;
 }
 
-.button:hover{
+.button:hover {
     background-color: #55677B;
 }
 
-.about{
+.about {
     padding-top: 100px;
 }
-.mission{
+
+.mission {
     padding-top: 100px;
-    margin-bottom: 250px; 
+    margin-bottom: 250px;
 }
-.vision{
+
+.vision {
     padding-top: 100px;
     margin-bottom: 260px;
 }
 
-.aboutInner{
+.aboutInner {
     display: flex;
     justify-content: space-between;
 }
 
-.visionInner{
-    display: flex;
-    justify-content: space-between;
-}
-.missionInner{
+.visionInner {
     display: flex;
     justify-content: space-between;
 }
 
-.aboutLeft{
+.missionInner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutLeft {
     display: flex;
     flex-direction: column;
     gap: 20px;
     width: 600px;
 }
 
-.aboutRight{
+.aboutRight {
     width: 550px;
     align-items: center;
     justify-content: center;
@@ -89,16 +100,17 @@
     text-align: center;
 }
 
-.projects{
+.projects {
     padding-top: 100px;
     padding-bottom: 130px;
 }
 
-.introduce{
+.introduce {
     padding-top: 100px;
     padding-bottom: 100px;
 }
-.grid{
+
+.grid {
     margin-top: 30px;
     display: grid;
     grid-template-columns: repeat(2, 525px);
@@ -106,22 +118,22 @@
     grid-row-gap: 40px;
 }
 
-.gridItem{
+.gridItem {
     width: 525px;
 }
 
-.gridItem a img{
+.gridItem a img {
     transition: all .1s;
     border: 1px transparent solid;
     border-radius: 10px;
     object-fit: cover;
 }
 
-.gridItem a:hover img{
+.gridItem a:hover img {
     border: 1px #d4d4d4 solid;
 }
 
-.projectTitle{
+.projectTitle {
     margin-top: 15px;
     transition: all .1s;
     text-align: center;
@@ -129,13 +141,13 @@
     font-weight: 500;
 }
 
-.Tech_stack{
+.Tech_stack {
     padding-top: 100px;
     padding-bottom: 260px;
 
 }
 
-.Tech_stackList{
+.Tech_stackList {
     margin-top: 50px;
     display: flex;
     justify-content: space-between;
@@ -145,184 +157,208 @@
     width: 100%;
 }
 
-.Tech_stackImg{
+.Tech_stackImg {
     max-width: 510px;
     object-fit: contain;
 }
 
-.contacts{
-    padding-top: 100px;
-    padding-bottom: 240px;
+.StackInner {
+    display: flex;
+    align-items: center;
 }
 
-.textSection{
+.contacts {
+    padding-top: 100px;
+    padding-bottom: 240px;
+    font-family: 'Nanum Gothic Coding', monospace;
+}
+
+.textSection {
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
 
-.contactsList{
+.contactsList {
     margin-top: 40px;
     display: flex;
     flex-direction: column;
     gap: 25px;
 }
 
-.contact{
+.contact {
     display: inline-flex;
     align-items: center;
 }
 
-.kwork{
+.kwork {
     transition: all .3s;
 }
 
-.linkIcon{
+.linkIcon {
     transition: all .3s;
     width: 40px;
     height: 40px;
     object-fit: contain;
 }
 
-.linkIcon path{
+.linkIcon path {
     transition: all .3s;
 }
 
-.contactLink{
+.contactLink {
     transition: all .3s;
     margin-left: 10px;
 }
 
-.contact:hover .kwork{
+.contact:hover .kwork {
     color: #d4d4d4;
 }
 
-.contact:hover .linkIcon path{
+.contact:hover .linkIcon path {
     fill: #d4d4d4;
 }
 
-.contact:hover .contactLink{
+.contact:hover .contactLink {
     color: #d4d4d4;
 }
 
-@media (max-width: 1110px){
-    .grid{
+@media (max-width: 1110px) {
+    .grid {
         grid-template-columns: repeat(2, 2fr);
         gap: 50px;
     }
-    .gridItem{
+
+    .gridItem {
         width: 100%;
     }
-    .gridItem img{
+
+    .gridItem img {
         width: 100%;
     }
 }
 
-@media (max-width: 900px){
-    .text{
+@media (max-width: 900px) {
+    .text {
         font-size: 18px;
     }
-    .projectTitle{
+
+    .projectTitle {
         font-size: 18px;
     }
 }
 
-@media (max-width: 700px){
-    .grid{
+@media (max-width: 700px) {
+    .grid {
         grid-template-columns: repeat(1, 2fr);
     }
-    .gridItem a img{
+
+    .gridItem a img {
         height: 260px;
     }
 }
 
-@media (max-width: 950px){
-    .aboutInner{
-        flex-direction: column;
-    }
-    .visionInner{
-        flex-direction: column;
-    }
-    .missionInner{
+@media (max-width: 950px) {
+    .aboutInner {
         flex-direction: column;
     }
 
-    .aboutLeft{
+    .visionInner {
+        flex-direction: column;
+    }
+
+    .missionInner {
+        flex-direction: column;
+    }
+
+    .aboutLeft {
         width: 100%;
     }
-    .aboutRight{
+
+    .aboutRight {
         width: 100%;
     }
-    .Tech_stackList{
+
+    .Tech_stackList {
         justify-content: space-around;
         gap: 60px 70px;
     }
-    .Tech_stackImg{
+
+    .Tech_stackImg {
         max-width: 180px;
     }
 }
 
-@media(max-width: 550px){
-    .contactsList{
+@media(max-width: 550px) {
+    .contactsList {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-between;
         gap: 0;
         align-items: center;
     }
-    .contactLink{
+
+    .contactLink {
         display: none;
     }
-    .kwork{
+
+    .kwork {
         font-size: 30px;
     }
-    .linkIcon{
+
+    .linkIcon {
         width: 60px;
         height: 60px;
     }
 }
 
-@media(max-width: 500px){
-    .Tech_stackImg{
+@media(max-width: 500px) {
+    .Tech_stackImg {
         max-width: 135px;
     }
 }
 
-@media(max-width: 400px){
-    .text{
+@media(max-width: 400px) {
+    .text {
         font-size: 16px;
     }
-    .title{
+
+    .title {
         font-size: 28px;
     }
-    .button{
+
+    .button {
         padding: 20px 50px;
         font-size: 16px;
     }
-    .projectTitle{
+
+    .projectTitle {
         font-size: 16px;
     }
-    .Tech_stackList{
+
+    .Tech_stackList {
         gap: 60px 15px;
     }
-    .Tech_stackImg{
+
+    .Tech_stackImg {
         max-width: 115px;
     }
-    .linkIcon{
+
+    .linkIcon {
         width: 45px;
         height: 45px;
     }
 }
 
-@media(max-width: 300px){
-    .subTitle{
+@media(max-width: 300px) {
+    .subTitle {
         text-align: center;
         font-size: 13px;
     }
 }
 
-@media(max-height:600px){
-    .top{
+@media(max-height:600px) {
+    .top {
         padding-top: 85px;
     }
 }
@@ -332,13 +368,14 @@
     margin: 30px 0px;
 }
 
-.humanImg{
+
+.humanImg {
     object-fit: contain;
 }
 
 
 
-.header{
+.header {
     width: 100%;
     position: fixed;
     top: 0;
@@ -346,28 +383,28 @@
     background-color: #55677b;
 }
 
-.headerInner{
+.headerInner {
     display: flex;
     justify-content: space-between;
     padding: 18px 0;
     align-items: center;
 }
 
-.logo{
+.logo {
     cursor: default;
 }
 
-.logo:hover .logoText{
+.logo:hover .logoText {
     transition: all .2s;
     color: #e6e6e6;
 }
 
-.logoText{
+.logoText {
     font-family: 'Barlow', sans-serif;
     font-style: italic;
 }
 
-.logoDash{
+.logoDash {
     color: #C72828;
     font-family: 'Barlow', sans-serif;
     font-size: 20px;
@@ -376,7 +413,7 @@
     line-height: normal;
 }
 
-.menuBtn{
+.menuBtn {
     display: none;
     flex-direction: column;
     justify-content: space-between;
@@ -390,35 +427,36 @@
     z-index: 50;
 }
 
-.btnLine{
+.btnLine {
     width: 100%;
     background-color: white;
     height: 2px;
 }
 
-.menu{
+.menu {
     display: flex;
     gap: 40px;
 }
 
-.menuActive .menu{
+.menuActive .menu {
     transform: translateY(0) !important;
 }
 
-.menuLink{
+.menuLink {
     font-size: 16px;
     transition: all .2s;
 }
 
-.menuLink:hover{
+.menuLink:hover {
     color: #d4d4d4;
 }
 
-@media(max-width: 850px){
-    .menuBtn{
+@media(max-width: 850px) {
+    .menuBtn {
         display: inline-flex;
     }
-    .menu{
+
+    .menu {
         position: absolute;
         left: 0;
         right: 0;
@@ -432,21 +470,20 @@
         transition: .3s ease;
         height: 100vh;
     }
-    .menuLink{
+
+    .menuLink {
         font-size: 30px;
     }
 }
 
-@media(max-width: 500px){
-    .menuLink{
+@media(max-width: 500px) {
+    .menuLink {
         font-size: 20px;
     }
 }
 
-@media(max-width: 300px){
-    .menuLink{
+@media(max-width: 300px) {
+    .menuLink {
         font-size: 16px;
     }
 }
-
-

@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&display=swap');
+
+
+
+
 .header{
     width: 100%;
     position: fixed;
@@ -23,9 +28,10 @@
 }
 
 .logoText{
-    font-family: 'Barlow', sans-serif;
     font-style: italic;
     color: black;
+    font-size: 30px;
+    font-family: 'Alumni Sans Collegiate One' , sans-serif;
 }
 
 .logoDash{
@@ -67,7 +73,8 @@
 }
 
 .menuLink{
-    font-size: 16px;
+    font-size: 30px;
+    font-family: 'Alumni Sans Collegiate One' , sans-serif;
     transition: all .2s;
     color: black;
 }
