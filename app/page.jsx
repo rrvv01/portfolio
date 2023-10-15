@@ -68,20 +68,40 @@ export default function Home() {
 
 
 
-      <section id='skill' className={styles.Tech_stack}>
+      <section id='activity' className={styles.Tech_stack}>
         <div className={mainStyles.container}>
-          <h2 className={styles.title}>SKILL</h2>
+          <h2 className={styles.title}>ACTIVITY</h2>
           <p className={styles.line}></p>
-          <div className={styles.Tech_stackInner}>
-            <div className={styles.Tech_stackList}>
-              <img className={styles.Tech_stackImg} src="./main/Tech_stack/html-skill.png" alt="" />
-              <img className={styles.Tech_stackImg} src="./main/Tech_stack/css-skill.png" alt="" />
-              <img className={styles.Tech_stackImg} src="./main/Tech_stack/js-skill.png" alt="" />
 
-            </div>
+          <div className={styles.activity}>
+            <p>clerk2</p>
+            <a className={styles.contact} href='https://clerk2-rho.vercel.app/' rel="noreferrer">
+              <li className={styles.contactLink}>https://clerk2-rho.vercel.app/</li>
+            </a>
           </div>
+
+          <br></br> <br></br>
+
+          <div className={styles.activity}>
+            <p>축구선수 명단 페이지</p>
+            <a className={styles.contact} href='https://github.com/rrvv01/web-study/' rel="noreferrer">
+                <li className={styles.contactLink}>https://github.com/rrvv01/web-study/</li>
+            </a>
         </div>
-      </section>
+
+        <br></br> <br></br>
+
+        <div className={styles.activity}>
+            <p>파이썬 스터디</p>
+            <a className={styles.contact} href='https://github.com/rrvv01/python-study/' rel="noreferrer">
+                <li className={styles.contactLink}>https://github.com/rrvv01/python-study/</li>
+            </a>
+        </div>
+
+        
+
+        </div>
+      </section >
 
 
       <section id='team_project' className={styles.projects}>

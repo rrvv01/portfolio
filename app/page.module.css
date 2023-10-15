@@ -191,6 +191,13 @@
     align-items: center;
 }
 
+/* .activity {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+
+} */
+
 .kwork {
     transition: all .3s;
 }
