@@ -120,8 +120,8 @@ export default function Home() {
 
         <div className={styles.activity}>
             <p>Mongodb-crud</p>
-            <a className={styles.contact} href='https://github.com/rrvv01/mongodb-crud' rel="noreferrer">
-                <li className={styles.contactLink}>https://github.com/rrvv01/mongodb-crud</li>
+            <a className={styles.contact} href='https://mongodb-crud-rrvv01.vercel.app/' rel="noreferrer">
+                <li className={styles.contactLink}>https://mongodb-crud-rrvv01.vercel.app/</li>
             </a>
         </div>
 
