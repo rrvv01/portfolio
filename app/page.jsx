@@ -125,6 +125,15 @@ export default function Home() {
             </a>
         </div>
 
+        <br></br> <br></br>
+
+        <div className={styles.activity}>
+            <p>Team Project - 신화창조</p>
+            <a className={styles.contact} href='https://myth-green.vercel.app/' rel="noreferrer">
+                <li className={styles.contactLink}>https://myth-green.vercel.app/</li>
+            </a>
+        </div>
+
         
 
         </div>
