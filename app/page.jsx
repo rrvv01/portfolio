@@ -98,6 +98,33 @@ export default function Home() {
             </a>
         </div>
 
+        <br></br> <br></br>
+
+        <div className={styles.activity}>
+            <p>JavaScript 공부</p>
+            <a className={styles.contact} href='https://velog.io/@rrvv01' rel="noreferrer">
+                <li className={styles.contactLink}>https://velog.io/@rrvv01</li>
+            </a>
+        </div>
+
+        <br></br> <br></br>
+
+        <div className={styles.activity}>
+            <p>쇼핑몰 사이트</p>
+            <a className={styles.contact} href='https://dapara-theta.vercel.app/' rel="noreferrer">
+                <li className={styles.contactLink}>https://dapara-theta.vercel.app/</li>
+            </a>
+        </div>
+
+        <br></br> <br></br>
+
+        <div className={styles.activity}>
+            <p>Mongodb-crud</p>
+            <a className={styles.contact} href='https://github.com/rrvv01/mongodb-crud' rel="noreferrer">
+                <li className={styles.contactLink}>https://github.com/rrvv01/mongodb-crud</li>
+            </a>
+        </div>
+
         
 
         </div>
